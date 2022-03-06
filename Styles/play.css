@@ -40,3 +40,33 @@
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+.enjoy-story {
+    display: none;
+}
+
+.enjoy-story h2 {
+    font-weight: 700;
+    color: orangered !important;
+    margin-left: 20px;
+    margin: 20px;
+}
+
+.text-area {
+    width: 80vw;
+    border: 1px solid #2A94F4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.back-btn {
+    margin: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color:#0E538C;
+    box-shadow: 2px 2px 2px rgb(124, 124, 6);
+    color: white;
+
+}
