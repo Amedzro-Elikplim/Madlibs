@@ -17,7 +17,7 @@ class Madlibs {
             'Thomas stepped _ into the bar room. His _ clothes soaking, his hair flattened _ to his head. “There’s something out there,” he said. William _ turned with poker in hand, his brow furrowed _ . “What’s out there?” “I don’t know,” said _ Thomas.'
         ];
         
-        const randomNumber = Math.round(Math.random() * 9);
+        const randomNumber = Math.round(Math.random() * 10);
         let arrayOfStory = stories[randomNumber].split(' ');
 
         return arrayOfStory;
@@ -39,6 +39,4 @@ class Madlibs {
     };
 };
 
-
-const madlib = new Madlibs();
-console.log(madlib.createMadlib('sharon', 'wedding', 'Kelvin', 'masters degree', 'deepthroat', 'squirting'));
+export default Madlibs;
