@@ -1,3 +1,158 @@
 * {
-    background-color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+.body {
+    background: url('../Images/topBlob.svg'), url('../Images/downBlob.svg');
+    background-repeat: no-repeat ,no-repeat;
+    background-position: top right, left bottom;
+    background-size: 20rem;
+    height: 100vh;
+  }
+
+
+.toggle-icon {
+  zoom: 2;
+  color: black;
+}
+
+.navbar-parent {
+  min-height: 10vh;
+}
+
+.nav-top-content {
+  color: white;
+  display: flex;
+  list-style-type: none;
+  position: absolute;
+  right: 27px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-top-content li {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.toggler {
+  outline: none !important;
+  border: 1px solid yellowgreen !important;
+}
+
+.toggler:hover {
+  box-shadow: 1px 1px 5px rgb(243, 145, 109);
+}
+
+.campaign-link {
+  border: 3px solid rgb(6, 63, 6);
+  color: black;
+  width: 200px;
+}
+
+.nav-link {
+  color: rgb(2, 39, 2);
+  cursor: pointer;
+}
+
+.link1 {
+  color: orangered !important;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+
+}
+
+.blob {
+  margin-top: -50px;
+  width: 100vw;
+  background: url("../Images/homeBlob.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 35rem;
+  min-height: 50vh;
+}
+
+.hero {
+  margin: 60px;
+  color: #2a94f4;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+}
+
+.play-button {
+  margin: 30px 0px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.play-button a {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+
+  .navlinks-container {
+    position: absolute;
+    right: 200px;
+  }
+
+  .hero-container {
+    flex-wrap: nowrap;
+  }
+
+  .hero {
+    width: 40vw;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  .hero h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+
+  .blob {
+    margin-top: -50px;
+    width: 50vw;
+    background: url("../Images/homeBlob.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 35rem;
+    min-height: 50vh;
+  }
+
+  .play-button {
+    margin: 30px 0px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 30px;
+  }
+
+  .campaign-link {
+    width: 120px;
+  }
+
+  .nav-top {
+    display: block;
+  }
+
+  .nav-link {
+    color: rgb(2, 39, 2);
+    cursor: pointer;
+  }
 }
